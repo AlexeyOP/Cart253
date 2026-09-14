@@ -17,7 +17,7 @@ This description should help the reader understand what the program is, anything
 ## Screenshot(s)
 
 This bit should have some images of the program running so that the reader has a sense of what it looks like. For example:
-
+title:splatoon
 > ![Image of a splatoon](./assets/images/splatoon.png)
 
 ## Attribution
