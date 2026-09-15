@@ -14,7 +14,7 @@
 */
 function setup() {
     // A 640x480 canvas
-    createCanvas(700, 700);
+    createCanvas(800, 800);
 
     // Don't show the cursor
     noCursor();
@@ -26,7 +26,7 @@ function setup() {
 */
 function draw() {
     // Make the background black (specified as RGB)
-    background(0, 0, 0);
+    background(1, 1, 1);
 
     // Draw a pyramid
     // How many levels for the pyramid
@@ -38,7 +38,7 @@ function draw() {
         // Set the grey shade of the level based on its number
         // e.g. level 1 will get a shade of 10 (dark gray), 
         // level 10 will be 255(white)
-        const shade = map(level, 1, levels, 10, 255);
+        const shade = map(level, 1, levels, 20, 260);
         // No line around the levels
         noStroke();
         // Set the fill colour to our shade (RGB)
@@ -49,7 +49,9 @@ function draw() {
         // (320, 320) with a size based on the level
         // e.g. level 1 will be a 48x48 rectangle and
         // level 10 will be a 480x480 rectangle
-        rect(300, 300, level * 50, level * 50);
+        rect(400, 400, level * 60, level * 60
+            
+        );
         pop();
     }
 
