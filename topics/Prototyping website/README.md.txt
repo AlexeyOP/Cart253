@@ -1,6 +1,6 @@
 Alexey Openkov
 
-My course for creating website
+MY COURSE FOR CREATING WEBSITE
 
 ![](C:/Users/User/Documents/GitHub/Cart253/topics/Prototyping website/images/splatoon.png "splatoon.png")
 
