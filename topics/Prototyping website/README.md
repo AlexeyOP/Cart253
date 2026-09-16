@@ -1,16 +1,17 @@
-Alexey Openkov  
+#
 
-MY COURSE FOR CREATING WEBSITE  
+## MY COURSE FOR CREATING WEBSITE
 
-![](C:/Users/User/Documents/GitHub/Cart253/topics/Prototyping website/images/splatoon.png "splatoon.png")  
+## ALEXEY OPENKOV
 
-this webpage is for collect together and show of my prototyping work in this course  
+![splatoon](image/splatoon.png)
 
-link 1 web-presences  
+this webpage is for collect together and show of my prototyping work in this course
 
-link 2 journal  
+link 1 web-presences
 
-subjection that will contain all my prototypes  
+link 2 journal
 
+subjection that will contain all my prototypes
 
  
