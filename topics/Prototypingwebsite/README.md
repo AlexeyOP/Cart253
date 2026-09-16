@@ -4,7 +4,7 @@
 
 ## ALEXEY OPENKOV
 
-![splatoon](splatoon.png)
+![splatoon](images/splatoon.png)
 
 this webpage is for collect together and show of my prototyping work in this course
 
