@@ -30,7 +30,7 @@ function draw() {
 
     // Draw a pyramid
     // How many levels for the pyramid
-    const levels = 20;
+    const levels = 40;
     // Loop through every level (backwards)
     for (let level = levels; level > 0; level--) {
         // Draw this layer
@@ -49,9 +49,7 @@ function draw() {
         // (320, 320) with a size based on the level
         // e.g. level 1 will be a 48x48 rectangle and
         // level 10 will be a 480x480 rectangle
-        rect(400, 400, level * 60, level * 60
-            
-        );
+        rect(320, 320, level * 50, level * 50);
         pop();
     }
 
@@ -62,6 +60,6 @@ function draw() {
     // Make it red (RGB)
     fill(255, 0, 0);
     // Draw a 100x100 circle at the mouse position
-    ellipse(mouseX, mouseY, 100, 100);
+    ellipse(mouseX, mouseY, 150, 150);
     pop();
 }
