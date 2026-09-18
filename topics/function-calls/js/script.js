@@ -12,7 +12,7 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-    createCanvas(320, 240);
+    createCanvas(640, 480);
 }
 
 
