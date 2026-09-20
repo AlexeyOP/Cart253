@@ -2,29 +2,34 @@
  * Function calls
  * Alexey Openkov
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * This programm draw white page in orange background
+ * 
+ *  Uses:
+ * p5.js and p5.sound
+ * https://p5js.org/
  */
+
+
 
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
-*/
+ * Creates a 640x480 canvas for our masterpiece
+ */
+
 function setup() {
+    // Create the canvas at a standard resolution
     createCanvas(640, 480);
 }
 
 
 /**
- * OOPS I DIDN'T DESCRIBE WHAT MY DRAW DOES!
-*/
+ * Draws a blank piece of paper on orange background
+ */
 function draw() {
+    // A orange background
     background(219, 119, 13);
-}
-
-
-function draw() {
-    background(255, 100, 100);
+    // The blank piece of paper
     rect(200, 80, 240, 320);
 }
+
