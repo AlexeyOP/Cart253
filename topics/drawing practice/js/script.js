@@ -25,5 +25,6 @@ function draw() {
 }
 
 function draw() {
-    
+    // A grey background
+    background(150,150,150)
 }
