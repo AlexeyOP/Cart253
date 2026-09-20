@@ -41,4 +41,11 @@ function draw() {
     fill(255, 0, 0);
     stroke(255, 255, 255);
     ellipse(320,320,480,480);
+    
+    // The hole in the record
+    push();
+    fill(150, 150, 150);
+    stroke(50, 50, 50);
+    ellipse(320, 320, 20, 20);
+    pop();
 }
