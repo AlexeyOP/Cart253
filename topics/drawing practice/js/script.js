@@ -26,5 +26,7 @@ function draw() {
 
 function draw() {
     // A grey background
-    background(150,150,150)
+    background(150,150,150);
+    // A circle in the centre of the canvas
+    ellipse(320,320,480,480);
 }
