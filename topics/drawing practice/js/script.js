@@ -29,5 +29,16 @@ function draw() {
     // A red circle with a white outline in the centre of the canvas
     fill(255, 0, 0);
     stroke(255, 255, 255);
+    function draw() {
+// a nice square canvas to work with
+ createcanvas(640,640);
+}
+
+function draw() {
+    // A grey background
+    background(150,150,150);
+    // A red circle with a white outline in the centre of the canvas
+    fill(255, 0, 0);
+    stroke(255, 255, 255);
     ellipse(320,320,480,480);
 }
