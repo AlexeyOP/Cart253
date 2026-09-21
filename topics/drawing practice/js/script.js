@@ -1,18 +1,27 @@
 /**
  * drawing practice
  * Alexey Openkov
+  * 
+ * Draws a bright red vinyl record on the canvas.
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * Uses:
+ * p5.js
+ * https://p5js.org/
  */
 
 "use strict";
 
+/**
+ * Creates the canvas
+ */
 function setup() {
     // A nice square canvas to work with
     createCanvas(640, 640);
 }
 
+/**
+ * Draws a bright red record
+ */
 function draw() {
     // A grey background
     background(150, 150, 150);
