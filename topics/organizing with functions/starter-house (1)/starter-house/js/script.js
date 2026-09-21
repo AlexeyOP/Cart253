@@ -1,6 +1,6 @@
 /**
  * My House
- * Pippin Barr
+ * Alexey Openkov
  * 
  * Draws a house with shapes.
  * 
