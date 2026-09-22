@@ -15,19 +15,9 @@ function setup() {
   createCanvas(200, 200, WEBGL);
 
   background(200);
-
+  push()
   rect(-20, -30, 40, 60);
-
+  pop()
   describe('A white square with a black outline on a gray canvas.');
 }
 
-function setup() {
-  createCanvas(100, 100);
-
-  background(200);
-
-  // CHORD fill mode.
-  arc(50, 50, 80, 80, 0, PI + QUARTER_PI, CHORD);
-
-  describe('A white circle with a black outline missing a section from the top-right.');
-}
