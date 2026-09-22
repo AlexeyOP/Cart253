@@ -12,7 +12,7 @@
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
 function setup() {
-  createCanvas(100, 100, WEBGL);
+  createCanvas(200, 200, WEBGL);
 
   background(200);
 
