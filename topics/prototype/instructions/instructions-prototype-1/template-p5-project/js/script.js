@@ -15,9 +15,14 @@ function setup() {
   createCanvas(200, 200, WEBGL);
 
   background(200);
-  push()
+  push();
   rect(-20, -30, 40, 60);
-  pop()
+  pop();
+
+  push();
+  arc(0,0,90,90,180,360,CHORD);
+  pop();
+
   describe('A white square with a black outline on a gray canvas.');
 }
 
