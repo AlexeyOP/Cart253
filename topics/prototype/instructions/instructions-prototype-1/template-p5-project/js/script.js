@@ -20,7 +20,7 @@ function setup() {
   pop();
 
   push();
-  arc(0,0,90,90,180,360,CHORD);
+  arc(0,100,50,0,180,CHORD);
   pop();
 
   describe('A white square with a black outline on a gray canvas.');
