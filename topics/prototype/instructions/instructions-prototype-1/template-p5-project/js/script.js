@@ -18,5 +18,7 @@ function setup() {
 
   rect(-20, -30, 40, 60);
 
+  arc(50, 50, 80, 80, 0, );
+
   describe('A white square with a black outline on a gray canvas.');
 }
