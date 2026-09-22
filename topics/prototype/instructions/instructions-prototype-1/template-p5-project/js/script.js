@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  document.body.style.backgroundImage=https://GitHub/Cart253/topics/prototipt/instructions/instructions-prototype-1/template-p5-project/moon.jpg;
+  document.body.style.background(240);
   
   // Center the robot in the canvas
   translate(width / 2, height / 2);
