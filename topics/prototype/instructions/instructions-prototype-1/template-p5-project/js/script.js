@@ -16,7 +16,7 @@ function setup() {
 
   background(200);
 
-  rect(-20, -30, 55, 55);
+  rect(-20, -30, 40, 60);
 
   describe('A white square with a black outline on a gray canvas.');
 }
