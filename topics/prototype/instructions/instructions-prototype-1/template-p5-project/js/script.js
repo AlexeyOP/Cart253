@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  document.body.style.background(240);
+  background(240);
   
   // Center the robot in the canvas
   translate(width / 2, height / 2);
