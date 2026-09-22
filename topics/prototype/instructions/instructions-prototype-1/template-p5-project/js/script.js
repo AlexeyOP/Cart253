@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  document.body.style.backgroundImage=images/moon.jpg;
+  document.body.style.backgroundImage=assets/images/moon.jpg;
   
   // Center the robot in the canvas
   translate(width / 2, height / 2);
