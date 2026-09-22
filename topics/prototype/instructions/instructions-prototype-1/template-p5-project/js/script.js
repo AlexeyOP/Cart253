@@ -2,8 +2,7 @@
  * R2D2 Robot
  * Alexey Openkov
  * 
- * HOW EMBARRASSING! I HAVE NO DESCRIPTION OF MY PROJECT!
- * PLEASE REMOVE A GRADE FROM MY WORK IF IT'S GRADED!
+ * We will draw a R2D2 robot from star wars
  */
 
 "use strict";
@@ -41,7 +40,7 @@ function draw() {
   rect(0, 20, 80, 110, 0, 0, 10, 10); 
   
   // Blue Body Details
-  fill(20, 80, 180); // R2 Blue
+  fill(219, 82, 13); // R2 orange
   rect(0, -25, 60, 10);
   rect(-20, 10, 20, 40);
   rect(20, 10, 20, 40);
@@ -52,8 +51,8 @@ function draw() {
   // arc(x, y, width, height, start, stop, [mode])
   arc(0, -35, 80, 80, PI, 0, CHORD); 
   
-  // Dome Blue Panels
-  fill(20, 80, 180);
+  // Dome orange Panels
+  fill(219, 82, 13);
   arc(0, -35, 80, 80, PI + 0.3, PI + 0.9, CHORD);
   arc(0, -35, 80, 80, TWO_PI - 0.9, TWO_PI - 0.3, CHORD);
   rect(0, -45, 25, 12);
