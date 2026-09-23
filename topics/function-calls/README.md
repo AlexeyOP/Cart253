@@ -1,12 +1,12 @@
-# TITLE OF PROJECT
+# WHITE PAGE
 
-AUTHOR NAME
+ALEXEY OPENKOV
 
-[View this project online]([URL_FOR_THE_RUNNING_PROJECT](https://github.com/AlexeyOP/Cart253/tree/main/topics/function-calls))
+[View this project online](https://github.AlexeyOP.io/Cart253/topics/function-calls)
 
 ## Description
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
+One empty white page on orange table.
 
 ## Attribution
 
