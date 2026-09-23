@@ -2,7 +2,7 @@
 
 AUTHOR NAME
 
-[View this project online]https://github.com/AlexeyOP/Cart253/tree/main/topics/function-calls 
+[View this project online]https://github.com/AlexeyOP/Cart253/tree/main/topics/function-calls/index.html 
 
 ## Description
 
