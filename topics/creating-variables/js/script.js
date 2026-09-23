@@ -11,7 +11,16 @@
 /**
  * OH LOOK I DIDN'T DESCRIBE SETUP!!
 */
-let holeSize = 180;
+// Our cheese colour broken into RGB
+let cheeseRed = 255;
+let cheeseGreen = 255;
+let cheeseBlue = 255;
+
+// Our cheese hole
+let holeShade = 0; // Greyscale value for the hole
+let holeX = 140; // x-coordinate of the hole
+let holeY = 175; // y-coordinate of the hole
+let holeSize = 180; // Diameter of the hole
 
 function setup() {
     // Create the canvas
@@ -20,12 +29,12 @@ function setup() {
 
 function draw() {
     // Cheese colour (yellow)
-    background(255, 255, 0);
+    background(cheeseRed, cheeseGreen, cheeseBlue);
     
     // Draw a hole in the upper left
     push();
     noStroke();
-    fill(0);
-    ellipse(140, 175, holeSize);
+    fill(holeShade);
+    ellipse(holeX, holeY, holeSize);
     pop();
 }
