@@ -33,7 +33,7 @@ function setup() {
  * Draw (and update) Mr. Furious
  */
 function draw() {
-  background(160, 180, 200);
+  background(0, 0, 0);
   
   // Draw Mr. Furious as a coloured circle
   push();
