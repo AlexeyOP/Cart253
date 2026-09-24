@@ -2,7 +2,7 @@
 
 Alexey Openkov
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+[View this project online](https://alexeyop.github.io/Cart253/topics/prototype/instructions/instructions-prototype-1/template-p5-project/))
 
 ## Description
 
