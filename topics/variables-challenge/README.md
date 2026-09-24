@@ -1,23 +1,43 @@
-# TITLE OF PROJECT
+/**
+ * Mr. Furious
+ * Alexey Openkov
+ *
+ * A guy who becomes visibly furious!
+ */
 
-AUTHOR NAME
+"use strict";
 
-[View this project online](URL_FOR_THE_RUNNING_PROJECT)
+// Our friend Mr. Furious
+let mrFurious = {
+  // Position and size
+  x: 200,
+  y: 200,
+  size: 100,
+  // Colour
+  fill: {
+    r: 252,
+    g: 7,
+    b: 0
+  }
+};
 
-## Description
+/**
+ * Create the canvas
+ */
+function setup() {
+  createCanvas(400, 400);
+}
 
-This description should help the reader understand what the program is, anything they should know to be able to experience it (controls, special features, etc.), and what the desired user experience is. For example:
-
-## Attribution
-
-This bit should attribute any code, assets or other elements used taken from other sources. For example:
-
-> - This project uses [p5.js](https://p5js.org).
-> - The clown image is a capture of the clown from the Apple emoji character set.
-> - The barking sound effect is "single dog bark 1" by crazymonke9 from freesound.org: https://freesound.org/people/crazymonke9/sounds/418107/
-
-## License
-
-This bit could include the license you want to apply to your work. For example:
-
-> This project is licensed under a Creative Commons Attribution ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)) license with the exception of libraries and other components with their own licenses.
+/**
+ * Draw (and update) Mr. Furious
+ */
+function draw() {
+  background(160, 180, 200);
+  
+  // Draw Mr. Furious as a coloured circle
+  push();
+  noStroke();
+  fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
+  ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
+  pop();
+}
