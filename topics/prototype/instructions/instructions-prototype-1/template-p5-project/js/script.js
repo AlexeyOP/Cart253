@@ -8,7 +8,7 @@
 "use strict";
 
 /**
- * OH LOOK I DIDN'T DESCRIBE SETUP!!
+ * I tried inserting an image as a background, but it didn't work.
 */
 function setup() {
   createCanvas(400, 400);

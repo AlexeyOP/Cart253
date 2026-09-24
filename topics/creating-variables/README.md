@@ -1,4 +1,4 @@
-# creating vvariables
+# creating variables
 
 Alexey Openkov
 
