@@ -42,6 +42,4 @@ function draw() {
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
 
-  function draw()
-  arc(150,150,10,300)
-}
+ 
