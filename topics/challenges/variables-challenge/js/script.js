@@ -1,4 +1,3 @@
-
 /**
  * Mr. Furious
  * Pippin Barr
@@ -17,8 +16,8 @@ let mrFurious = {
   // Colour
   fill: {
     r: 255,
-    g: 0,
-    b: 0
+    g: 225,
+    b: 225
   }
 };
 
@@ -33,7 +32,7 @@ function setup() {
  * Draw (and update) Mr. Furious
  */
 function draw() {
-  background(0, 0, 0);
+  background(160, 180, 200);
   
   // Draw Mr. Furious as a coloured circle
   push();
@@ -41,5 +40,4 @@ function draw() {
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
-
- 
+}
