@@ -45,7 +45,7 @@ function draw() {
 
 // Seagull positioning and dimensions
         const centerX = 200;
-        const centerY = 200;
+        const centerY = 150;
         const radius = 40; // The radius of our quarter-circle wings
 
         ctx.strokeStyle = '#ffffff'; // White color for the seagull
