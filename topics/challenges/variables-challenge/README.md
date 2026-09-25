@@ -2,7 +2,7 @@
 
 Alexey Openkov
 
-[View this project online]https://github.AlexeyOP.io/Cart253/topics/challenges/variables-challenge
+[View this project online]https://AlexeyOP.github.io/Cart253/topics/challenges/variables-challenge
 
 ## Description
 
