@@ -40,4 +40,58 @@ function draw() {
   fill(mrFurious.fill.r, mrFurious.fill.g, mrFurious.fill.b);
   ellipse(mrFurious.x, mrFurious.y, mrFurious.size);
   pop();
-}
+
+
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Чайка в VS Code</title>
+    <style>
+        body {
+            background-color: #a0c4ff; /* Небо */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Силуэт чайки */
+        .gull {
+            position: relative;
+            width: 150px;
+            height: 50px;
+        }
+
+        /* Левое и правое крыло через псевдоэлементы */
+        .gull::before, .gull::after {
+            content: "";
+            position: absolute;
+            width: 80px;
+            height: 40px;
+            border-radius: 50px 50px 0 0;
+            border-top: 6px solid #ffffff; /* Цвет чайки */
+            background: transparent;
+        }
+
+        /* Левое крыло */
+        .gull::before {
+            left: 0;
+            transform: rotate(-20deg);
+        }
+
+        /* Правое крыло */
+        .gull::after {
+            right: 0;
+            transform: rotate(20deg);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Сама чайка -->
+    <div class="gull"></div>
+
+</body>
+</html>
