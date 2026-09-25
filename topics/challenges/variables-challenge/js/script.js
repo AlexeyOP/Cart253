@@ -1,6 +1,6 @@
 /**
  * Mr. Furious
- * Pippin Barr
+ * Alexey Openkov
  *
  * A guy who becomes visibly furious!
  */
